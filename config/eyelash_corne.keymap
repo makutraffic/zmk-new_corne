@@ -76,9 +76,9 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL   &kp AT         &kp HASH      &kp DLLR              &kp PRCNT                                        &msc SCRL_UP                     &kp RS(RG(KP_NUMBER_3))  &kp RS(RG(KP_NUMBER_4))  &kp ASTRK  &kp LPAR  &kp RPAR  &trans
-&trans  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS            &msc SCRL_LEFT  &mkp LCLK       &msc SCRL_RIGHT  &kp RG(C)                &kp RG(V)                &kp LBKT   &kp RBKT  &kp BSLH  &trans
-&trans  &kp HOME   &kp END        &kp PAGE_UP   &kp PAGE_DOWN         &kp CAPSLOCK           &trans                    &msc SCRL_DOWN                   &kp RG(X)                &kp RG(Y)                &kp LBRC   &kp RBRC  &kp PIPE  &trans
+&trans  &kp EXCL   &kp AT         &kp HASH      &kp DLLR              &kp PRCNT                                        &msc SCRL_UP                     &kp RS(RG(KP_NUMBER_3))  &kp RS(RG(KP_NUMBER_4))  &kp NUMBER_1  &kp NUMBER_4  &kp N7  &trans
+&trans  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS            &msc SCRL_LEFT  &mkp LCLK       &msc SCRL_RIGHT  &kp RG(C)                &kp RG(V)                &kp NUMBER_2  &kp N5        &kp N8  &trans
+&trans  &kp HOME   &kp END        &kp PAGE_UP   &kp PAGE_DOWN         &kp CAPSLOCK           &trans                    &msc SCRL_DOWN                   &kp RG(X)                &kp RG(Y)                &kp NUMBER_3  &kp NUMBER_6  &kp N9  &trans
                                   &trans        &trans                &trans                                                                            &trans                   &trans                   &trans
             >;
 
@@ -88,10 +88,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&studio_unlock  &kp F1      &kp F2  &kp F3       &kp F4  &kp F5                          &trans          &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &kp F6      &kp F7  &kp F8       &kp F9  &kp F10                 &trans  &trans  &trans  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &sys_reset  &trans  &bootloader  &trans  &mkp MB5  &kp C_MUTE            &trans          &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                    &trans       &trans  &trans                                          &trans       &trans     &trans
+&trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                         &trans          &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &trans
+&trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10                &trans  &trans  &trans  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &trans
+&trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &kp C_MUTE            &trans          &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &trans
+                          &trans   &trans   &trans                                         &trans       &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
