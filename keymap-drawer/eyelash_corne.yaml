@@ -107,9 +107,9 @@ layers:
   - $$mdi:pan-up$$
   - Sft+Gui+KP 3
   - Sft+Gui+KP 4
-  - '*'
-  - (
-  - )
+  - '1'
+  - '4'
+  - {t: '7', s: '&'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - ^
@@ -122,9 +122,9 @@ layers:
   - $$mdi:pan-right$$
   - Gui+C
   - Gui+V
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: \, s: '|'}
+  - '2'
+  - {t: '5', s: '%'}
+  - {t: '8', s: '*'}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
@@ -136,9 +136,9 @@ layers:
   - $$mdi:pan-down$$
   - Gui+X
   - Gui+Y
-  - '{'
-  - '}'
-  - '|'
+  - '3'
+  - '6'
+  - {t: '9', s: (}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
-  - '&studio_unlock'
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
@@ -159,7 +159,7 @@ layers:
   - F8
   - F9
   - F10
-  - F11
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F6
   - F7
@@ -174,13 +174,13 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   - PRINTSCREEN
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F11
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB5'
+  - F13
+  - F14
+  - F15
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -188,7 +188,7 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - SCROLLLOCK
-  - {t: PAUSE BREAK, type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
