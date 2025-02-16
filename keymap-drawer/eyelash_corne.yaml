@@ -42,9 +42,9 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:apple-keyboard-option$$', h: Fn}
-  - LANGUAGE 6
+  - LANG2
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - LANGUAGE 4
+  - LANG1
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-command$$
